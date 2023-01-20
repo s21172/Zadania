@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Zad1": {
+      "commandName": "Project",
+      "commandLineArgs": "https://pja.edu.pl/rekrutacja-na-studia"
+    }
+  }
+}
