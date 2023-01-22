@@ -1,0 +1,412 @@
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Paweł,Nowak1,Informatyka magisterskie 4 sem,Dzienne,459,2000-02-12,1@pjwstk.edu.pl,Alina,Adam
+Line number: 2
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Paweł,Nowak1,Informatyka doktoranckie,Dzienne,459,2000-02-12,1@pjwstk.edu.pl,Alina,Adam
+Line number: 3
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Justyna,Kowalski30,Sztuka Nowych Mediów uzupełniające magisterskie,Dzienne,4749,2000-02-12,30@pjwstk.edu.pl,Alina,Adam
+Line number: 6
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Michał,Nowak31,Sztuka Nowych Mediów uzupełniające magisterskie,Dzienne,4432,2000-02-12,31@pjwstk.edu.pl,Alina,Adam
+Line number: 8
+
+Error: Nie można dodać studenta z powodu braku wystarczających danych!! 
+Dane:  Zbigniew,Kowalski35,Sztuka Nowych Mediów dzienne,,4450,2000-02-12,35@pjwstk.edu.pl,Alina,Adam
+Line number: 12
+
+Error: Nie można dodać studenta z powodu braku wystarczających danych!! 
+Dane:  Karolina,Nowak36,Sztuka Nowych Mediów dzienne,,4455,2000-02-12,36@pjwstk.edu.pl,Alina,Adam
+Line number: 13
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Joanna,Brzęczyszczykiewicz37,Sztuka Nowych Mediów uzupełniające magisterskie,Dzienne,4799,2000-02-12,37@pjwstk.edu.pl,Alina,Adam
+Line number: 15
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Irena,Maciejewski38,Sztuka Nowych Mediów zaoczne,Zaoczne,4626,2000-02-12,38@pjwstk.edu.pl,Alina,Adam
+Line number: 17
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Kacper,Kowalski40,Sztuka Nowych Mediów uzupełniające magisterskie,Dzienne,4396,2000-02-12,40@pjwstk.edu.pl,Alina,Adam
+Line number: 20
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Paweł,Nowak41,Sztuka Nowych Mediów zaoczne,Zaoczne,4902,2000-02-12,41@pjwstk.edu.pl,Alina,Adam
+Line number: 22
+
+Error: Nie można dodać studenta z powodu braku wystarczających danych!! 
+Dane:  Aleksandra,,Sztuka Nowych Mediów dzienne,Dzienne,4434,2000-02-12,42@pjwstk.edu.pl,Alina,Adam
+Line number: 23
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Aleksandra,Brzęczyszczykiewicz42,Sztuka Nowych Mediów zaoczne 6 sem.,Zaoczne,4434,2000-02-12,42@pjwstk.edu.pl,Alina,Adam
+Line number: 25
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Jan,Nowak46,Sztuka Nowych Mediów zaoczne 6 sem.,Zaoczne,4842,2000-02-12,46@pjwstk.edu.pl,Alina,Adam
+Line number: 30
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Jakub,Jankowski49,Sztuka Nowych Mediów zaoczne,Zaoczne,4789,2000-02-12,49@pjwstk.edu.pl,Alina,Adam
+Line number: 34
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Sabina,Brzęczyszczykiewicz52,Sztuka Nowych Mediów uzupełniające magisterskie,Dzienne,4513,2000-02-12,52@pjwstk.edu.pl,Alina,Adam
+Line number: 38
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Jan,Nowak56,Sztuka Nowych Mediów uzupełniające magisterskie,Dzienne,4649,2000-02-12,56@pjwstk.edu.pl,Alina,Adam
+Line number: 43
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Jakub,Brzęczyszczykiewicz57,Sztuka Nowych Mediów uzupełniające magisterskie,Dzienne,4755,2000-02-12,57@pjwstk.edu.pl,Alina,Adam
+Line number: 45
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Karolina,Jankowski64,Sztuka Nowych Mediów uzupełniające magisterskie,Dzienne,4423,2000-02-12,64@pjwstk.edu.pl,Alina,Adam
+Line number: 52
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Magdalena,Nowak66,Sztuka Nowych Mediów uzupełniające magisterskie,Dzienne,4629,2000-02-12,66@pjwstk.edu.pl,Alina,Adam
+Line number: 55
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Paweł,Jankowski69,Sztuka Nowych Mediów uzupełniające magisterskie,Dzienne,4478,2000-02-12,69@pjwstk.edu.pl,Alina,Adam
+Line number: 59
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Kamil,Nowak71,Sztuka Nowych Mediów uzupełniające magisterskie,Dzienne,4741,2000-02-12,71@pjwstk.edu.pl,Alina,Adam
+Line number: 62
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Sandra,Brzęczyszczykiewicz77,Sztuka Nowych Mediów uzupełniające magisterskie,Dzienne,4800,2000-02-12,77@pjwstk.edu.pl,Alina,Adam
+Line number: 69
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Małgorzata,Maciejewski78,Sztuka Nowych Mediów uzupełniające magisterskie,Dzienne,4429,2000-02-12,78@pjwstk.edu.pl,Alina,Adam
+Line number: 71
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Klaudia,Jankowski84,Sztuka Nowych Mediów uzupełniające magisterskie,Dzienne,4849,2000-02-12,84@pjwstk.edu.pl,Alina,Adam
+Line number: 78
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Tomasz,Kowalski95,Sztuka Nowych Mediów dzienne,Dzienne,3374,2000-02-12,95@pjwstk.edu.pl,Alina,Adam
+Line number: 90
+
+Error: Nie można dodać studenta z powodu braku wystarczających danych!! 
+Dane:  Jolanta,Nowak96,Sztuka Nowych Mediów uzupełniające magisterskie,Dzienne,4756,2000-02-12,96@pjwstk.edu.pl,,
+Line number: 92
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Paweł,Brzęczyszczykiewicz252,Informatyka magisterskie 3 sem,Dzienne,4412,2000-02-12,252@pjwstk.edu.pl,Alina,Adam
+Line number: 95
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Kamil,Jankowski254,Informatyka zaoczne,Zaoczne,4836,2000-02-12,254@pjwstk.edu.pl,Alina,Adam
+Line number: 98
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Michał,Brzęczyszczykiewicz257,Informatyka magisterskie 3 sem,Dzienne,4454,2000-02-12,257@pjwstk.edu.pl,Alina,Adam
+Line number: 102
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Patryk,Maciejewski258,Informatyka dzienne po angielsku,Dzienne,4443,2000-02-12,258@pjwstk.edu.pl,Alina,Adam
+Line number: 104
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Michał,Kowalski260,Informatyka zaoczne,Zaoczne,4579,2000-02-12,260@pjwstk.edu.pl,Alina,Adam
+Line number: 107
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Zuzanna,Jankowski264,Informatyka dzienne po angielsku,Dzienne,4413,2000-02-12,264@pjwstk.edu.pl,Alina,Adam
+Line number: 112
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Wojciech,Nowak266,Informatyka magisterskie 3 sem,Dzienne,4554,2000-02-12,266@pjwstk.edu.pl,Alina,Adam
+Line number: 115
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Jakub,Kowalski270,Informatyka internetowe,Internetowe,4711,2000-02-12,270@pjwstk.edu.pl,Alina,Adam
+Line number: 120
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Jakub,Kowalski270,Informatyka magisterskie 3 sem,Dzienne,4711,2000-02-12,270@pjwstk.edu.pl,Alina,Adam
+Line number: 121
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Aleksandra,Brzęczyszczykiewicz272,Informatyka dzienne po angielsku,Dzienne,4549,2000-02-12,272@pjwstk.edu.pl,Alina,Adam
+Line number: 124
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Aleksandra,Brzęczyszczykiewicz272,Informatyka magisterskie 3 sem,Dzienne,4549,2000-02-12,272@pjwstk.edu.pl,Alina,Adam
+Line number: 125
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Piotr,Maciejewski273,Informatyka magisterskie 3 sem,Dzienne,4618,2000-02-12,273@pjwstk.edu.pl,Alina,Adam
+Line number: 127
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Adrian,Jankowski274,Informatyka zaoczne,Zaoczne,4530,2000-02-12,274@pjwstk.edu.pl,Alina,Adam
+Line number: 129
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Andrzej,Kowalski275,Informatyka zaoczne,Zaoczne,4607,2000-02-12,275@pjwstk.edu.pl,Alina,Adam
+Line number: 131
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Wojciech,Nowak276,Informatyka zaoczne,Zaoczne,4459,2000-02-12,276@pjwstk.edu.pl,Alina,Adam
+Line number: 133
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Agata,Nowak281,Informatyka zaoczne,Zaoczne,4589,2000-02-12,281@pjwstk.edu.pl,Alina,Adam
+Line number: 139
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Agata,Nowak281,Informatyka internetowe,Internetowe,4589,2000-02-12,281@pjwstk.edu.pl,Alina,Adam
+Line number: 140
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Piotr,Maciejewski283,Informatyka magisterskie uzupełniające zaoczne,Zaoczne,4556,2000-02-12,283@pjwstk.edu.pl,Alina,Adam
+Line number: 143
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Grzegorz,Jankowski284,Informatyka magisterskie 3 sem,Dzienne,4504,2000-02-12,284@pjwstk.edu.pl,Alina,Adam
+Line number: 145
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Sebastian,Kowalski285,Informatyka magisterskie 3 sem,Dzienne,4505,2000-02-12,285@pjwstk.edu.pl,Alina,Adam
+Line number: 147
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Filip,Nowak286,Informatyka zaoczne,Zaoczne,4105,2000-02-12,286@pjwstk.edu.pl,Alina,Adam
+Line number: 149
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Filip,Nowak286,Informatyka jednolite magisterskie,Dzienne,4105,2000-02-12,286@pjwstk.edu.pl,Alina,Adam
+Line number: 150
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Artur,Maciejewski288,Informatyka magisterskie 3 sem,Dzienne,4498,2000-02-12,288@pjwstk.edu.pl,Alina,Adam
+Line number: 153
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Piotr,Jankowski289,Informatyka zaoczne,Zaoczne,4471,2000-02-12,289@pjwstk.edu.pl,Alina,Adam
+Line number: 155
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Piotr,Jankowski289,Informatyka dzienne po angielsku,Dzienne,4471,2000-02-12,289@pjwstk.edu.pl,Alina,Adam
+Line number: 156
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Tomasz,Jankowski294,Informatyka magisterskie 3 sem,Dzienne,4724,2000-02-12,294@pjwstk.edu.pl,Alina,Adam
+Line number: 162
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Michał,Nowak296,Informatyka zaoczne,Zaoczne,4769,2000-02-12,296@pjwstk.edu.pl,Alina,Adam
+Line number: 165
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Jakub,Maciejewski298,Informatyka internetowe,Internetowe,4733,2000-02-12,298@pjwstk.edu.pl,Alina,Adam
+Line number: 168
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Kasper,Jankowski299,Informatyka magisterskie 3 sem,Dzienne,4584,2000-02-12,299@pjwstk.edu.pl,Alina,Adam
+Line number: 170
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Krzysztof,Kowalski300,Informatyka magisterskie uzupełniające zaoczne,Zaoczne,4514,2000-02-12,300@pjwstk.edu.pl,Alina,Adam
+Line number: 172
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Katarzyna,Maciejewski303,Informatyka magisterskie 3 sem,Dzienne,4935,2000-02-12,303@pjwstk.edu.pl,Alina,Adam
+Line number: 176
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Piotr,Kowalski305,Informatyka magisterskie 3 sem,Dzienne,4456,2000-02-12,305@pjwstk.edu.pl,Alina,Adam
+Line number: 179
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Jan,Nowak306,Informatyka internetowe,Internetowe,4107,2000-02-12,306@pjwstk.edu.pl,Alina,Adam
+Line number: 181
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Jan,Nowak306,Informatyka jednolite magisterskie,Dzienne,4107,2000-02-12,306@pjwstk.edu.pl,Alina,Adam
+Line number: 182
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Jan,Nowak306,Informatyka jednolite magisterskie po angielsku,Dzienne,4107,2000-02-12,306@pjwstk.edu.pl,Alina,Adam
+Line number: 183
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Kacper,Maciejewski308,Informatyka magisterskie 3 sem,Dzienne,4817,2000-02-12,308@pjwstk.edu.pl,Alina,Adam
+Line number: 186
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Lech,Kowalski310,Informatyka dzienne po angielsku,Dzienne,4387,2000-02-12,310@pjwstk.edu.pl,Alina,Adam
+Line number: 189
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Błażej,Nowak311,Informatyka magisterskie uzupełniające zaoczne,Zaoczne,4509,2000-02-12,311@pjwstk.edu.pl,Alina,Adam
+Line number: 191
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Paweł,Maciejewski313,Informatyka zaoczne,Zaoczne,4481,2000-02-12,313@pjwstk.edu.pl,Alina,Adam
+Line number: 194
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Wojciech,Jankowski314,Informatyka magisterskie 3 sem,Dzienne,4512,2000-02-12,314@pjwstk.edu.pl,Alina,Adam
+Line number: 196
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Maciej,Kowalski315,Informatyka Społeczna,Dzienne,4782,2000-02-12,315@pjwstk.edu.pl,Alina,Adam
+Line number: 198
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Michał,Kowalski320,Informatyka dzienne po angielsku,Dzienne,4627,2000-02-12,320@pjwstk.edu.pl,Alina,Adam
+Line number: 204
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Krzysztof,Nowak321,Informatyka zaoczne,Zaoczne,4830,2000-02-12,321@pjwstk.edu.pl,Alina,Adam
+Line number: 206
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Mariusz,Maciejewski323,Informatyka magisterskie 3 sem,Dzienne,4447,2000-02-12,323@pjwstk.edu.pl,Alina,Adam
+Line number: 209
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Bartosz,Jankowski324,Informatyka magisterskie 3 sem,Dzienne,4580,2000-02-12,324@pjwstk.edu.pl,Alina,Adam
+Line number: 211
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Piotr,Kowalski325,Sztuka Nowych Mediów zaoczne,Zaoczne,4284,2000-02-12,325@pjwstk.edu.pl,Alina,Adam
+Line number: 213
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Michał,Nowak326,Informatyka magisterskie 3 sem,Dzienne,4440,2000-02-12,326@pjwstk.edu.pl,Alina,Adam
+Line number: 215
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Paweł,Jankowski329,Informatyka magisterskie 3 sem,Dzienne,4796,2000-02-12,329@pjwstk.edu.pl,Alina,Adam
+Line number: 219
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Nakul,Brzęczyszczykiewicz332,Informatyka magisterskie 3 sem,Dzienne,4942,2000-02-12,332@pjwstk.edu.pl,Alina,Adam
+Line number: 222
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Tomoto,Maciejewski333,Informatyka zaoczne,Zaoczne,4614,2000-02-12,333@pjwstk.edu.pl,Alina,Adam
+Line number: 224
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Adam,Kowalski335,Informatyka magisterskie 3 sem,Dzienne,4433,2000-02-12,335@pjwstk.edu.pl,Alina,Adam
+Line number: 227
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Michał,Maciejewski338,Informatyka magisterskie 3 sem,Dzienne,4419,2000-02-12,338@pjwstk.edu.pl,Alina,Adam
+Line number: 231
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Michał,Maciejewski338,Informatyka doktoranckie,Dzienne,4419,2000-02-12,338@pjwstk.edu.pl,Alina,Adam
+Line number: 232
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Adrian,Nowak341,Informatyka wieczorowe,Wieczorowe,4058,2000-02-12,341@pjwstk.edu.pl,Alina,Adam
+Line number: 236
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Michał,Brzęczyszczykiewicz342,Informatyka magisterskie 3 sem,Dzienne,4524,2000-02-12,342@pjwstk.edu.pl,Alina,Adam
+Line number: 238
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Jagoda,Maciejewski348,Informatyka magisterskie 3 sem,Dzienne,4532,2000-02-12,348@pjwstk.edu.pl,Alina,Adam
+Line number: 245
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Tomasz,Jankowski349,Informatyka magisterskie 3 sem,Dzienne,4480,2000-02-12,349@pjwstk.edu.pl,Alina,Adam
+Line number: 247
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Michał,Nowak351,Informatyka magisterskie 3 sem,Dzienne,4523,2000-02-12,351@pjwstk.edu.pl,Alina,Adam
+Line number: 250
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Bartosz,Brzęczyszczykiewicz352,Informatyka internetowe,Internetowe,4766,2000-02-12,352@pjwstk.edu.pl,Alina,Adam
+Line number: 252
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Yuriy,Nowak356,Informatyka magisterskie 3 sem,Dzienne,4422,2000-02-12,356@pjwstk.edu.pl,Alina,Adam
+Line number: 257
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Michał,Brzęczyszczykiewicz357,Informatyka magisterskie 3 sem,Dzienne,4660,2000-02-12,357@pjwstk.edu.pl,Alina,Adam
+Line number: 259
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Mikołaj,Kowalski360,Informatyka jednolite magisterskie,Dzienne,3081,2000-02-12,360@pjwstk.edu.pl,Alina,Adam
+Line number: 263
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Mikołaj,Kowalski360,Informatyka jednolite magisterskie po angielsku,Dzienne,3081,2000-02-12,360@pjwstk.edu.pl,Alina,Adam
+Line number: 264
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Anna,Brzęczyszczykiewicz362,Informatyka internetowe,Internetowe,4385,2000-02-12,362@pjwstk.edu.pl,Alina,Adam
+Line number: 267
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Michał,Jankowski364,Informatyka dzienne po angielsku,Dzienne,4522,2000-02-12,364@pjwstk.edu.pl,Alina,Adam
+Line number: 270
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Karol,Nowak366,Informatyka magisterskie 3 sem,Dzienne,4518,2000-02-12,366@pjwstk.edu.pl,Alina,Adam
+Line number: 273
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Adrian,Brzęczyszczykiewicz367,Informatyka zaoczne,Zaoczne,4384,2000-02-12,367@pjwstk.edu.pl,Alina,Adam
+Line number: 275
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Adrian,Brzęczyszczykiewicz367,Informatyka internetowe,Internetowe,4384,2000-02-12,367@pjwstk.edu.pl,Alina,Adam
+Line number: 276
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Łukasz,Maciejewski368,Informatyka Społeczna,Dzienne,4496,2000-02-12,368@pjwstk.edu.pl,Alina,Adam
+Line number: 278
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Adam,Jankowski369,Informatyka zaoczne,Zaoczne,4750,2000-02-12,369@pjwstk.edu.pl,Alina,Adam
+Line number: 280
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Adam,Jankowski369,Informatyka internetowe,Internetowe,4750,2000-02-12,369@pjwstk.edu.pl,Alina,Adam
+Line number: 281
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Michał,Brzęczyszczykiewicz372,Informatyka magisterskie 3 sem,Dzienne,4483,2000-02-12,372@pjwstk.edu.pl,Alina,Adam
+Line number: 285
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Tomasz,Maciejewski373,Informatyka magisterskie 3 sem,Dzienne,4751,2000-02-12,373@pjwstk.edu.pl,Alina,Adam
+Line number: 287
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Tomasz,Maciejewski373,MBA dla branży IT,Zaoczne,4751,2000-02-12,373@pjwstk.edu.pl,Alina,Adam
+Line number: 288
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Radosław,Jankowski374,Informatyka magisterskie 3 sem,Dzienne,4528,2000-02-12,374@pjwstk.edu.pl,Alina,Adam
+Line number: 290
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Przemysław,Nowak376,Informatyka zaoczne,Zaoczne,4814,2000-02-12,376@pjwstk.edu.pl,Alina,Adam
+Line number: 293
+
+Error: Student o takim imieniu, nazwisku i numerze indeksu juz istnieje!!
+Dane: Rafał,Nowak381,Informatyka magisterskie 3 sem,Dzienne,4616,2000-02-12,381@pjwstk.edu.pl,Alina,Adam
+Line number: 299
+
