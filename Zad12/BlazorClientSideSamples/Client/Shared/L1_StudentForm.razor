@@ -1,0 +1,65 @@
+﻿
+<EditForm Model="Student" OnValidSubmit="CreateValid" OnInvalidSubmit="CreateInvalid">
+    <div class="form-group">
+        <label>First name:</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@Student.FirstName" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Last name:</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@Student.LastName" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Address:</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@Student.Address" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Birthdate:</label>
+        <div>
+            <InputDate class="form-control" @bind-Value="@Student.Birthdate" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Index number:</label>
+        <div>
+            <InputNumber class="form-control" @bind-Value="@Student.IndexNumber" />
+        </div>
+    </div>
+
+    <button class="btn btn-success" type="submit">Save changes</button>
+</EditForm>
+
+@code {
+
+    [Parameter]
+    public Student Student { get; set; }
+
+
+    private void Create(EditContext context)
+    {
+        if (context.Validate())
+        {
+            Console.WriteLine("Form is valid");
+        }
+
+        Console.WriteLine(Student.FirstName);
+        Console.WriteLine(Student.LastName);
+        Console.WriteLine(Student.Address);
+        Console.WriteLine(Student.IndexNumber);
+    }
+
+    private void CreateValid()
+    {
+        Console.WriteLine("CreateValid called");
+    }
+
+    private void CreateInvalid()
+    {
+        Console.WriteLine("CreateInvalid called");
+    }
+}

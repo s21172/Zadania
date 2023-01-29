@@ -1,0 +1,21 @@
+﻿@page "/l10-samplepage"
+
+<h3>Partial class example</h3>
+
+<table>
+    @if (students.Count == 0)
+    {
+        <tr>
+            <td>
+                There are no students
+            </td>
+        </tr>
+    }
+    else
+    {
+        @foreach (var s in students)
+        {
+            <L8_ChildComponent Student="s" OnDeleteClicked="DeleteStudent" />
+        }
+    }
+</table>

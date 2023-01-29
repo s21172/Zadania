@@ -1,0 +1,28 @@
+﻿@page "/l17-samplepage"
+
+<h3>Cascading parameters</h3>
+
+<CascadingValue Value="students">
+    <L17_ChildComponent />
+</CascadingValue>
+
+@code {
+    private List<Student> students = new List<Student>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(4000);
+        students.Add(new Student
+        {
+            FirstName = "John",
+            LastName = "Smith",
+            IdStudent = 1
+        });
+        students.Add(new Student
+        {
+            FirstName = "Anne",
+            LastName = "Smith",
+            IdStudent = 2
+        });
+    }
+}

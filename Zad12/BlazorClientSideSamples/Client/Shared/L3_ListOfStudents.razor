@@ -1,0 +1,23 @@
+﻿
+<table class="table">
+
+    @foreach (var s in Students)
+    {
+        <tr @onclick="(()=>OnStudentClicked.InvokeAsync(s))">
+            <td>@s.FirstName</td>
+            <td>@s.LastName</td>
+            <td>@s.Address</td>
+        </tr>
+    }
+
+</table>
+
+@code {
+
+    [Parameter]
+    public List<Student> Students { get; set; }
+
+    [Parameter]
+    public EventCallback<Student> OnStudentClicked { get; set; }
+
+}

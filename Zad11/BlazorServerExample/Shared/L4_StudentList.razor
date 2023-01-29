@@ -1,0 +1,50 @@
+﻿<h3>Students list</h3>
+<table>
+    @if (students.Count == 0)
+    {
+        <tr>
+            <td>
+                There are no students
+            </td>
+        </tr>
+    }
+    else
+    {
+        @foreach (var s in students)
+        {
+            <tr>
+                <td>
+                    @s.IdStudent
+                </td>
+                <td>
+                    @s.FirstName
+                </td>
+                <td>
+                    @s.LastName
+                </td>
+            </tr>
+        }
+    }
+</table>
+
+
+@code {
+    private List<Student> students = new List<Student>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(4000);
+        students.Add(new Student
+        {
+            FirstName = "John",
+            LastName = "Smith",
+            IdStudent = 1
+        });
+        students.Add(new Student
+        {
+            FirstName = "Anne",
+            LastName = "Smith",
+            IdStudent = 2
+        });
+    }
+}

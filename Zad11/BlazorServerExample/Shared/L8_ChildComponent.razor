@@ -1,0 +1,25 @@
+﻿
+<tr>
+    <td>
+        @Student.IdStudent
+    </td>
+    <td>
+        @Student.FirstName
+    </td>
+    <td>
+        @Student.LastName
+    </td>
+    <td>
+        <button @onclick="@(()=>OnDeleteClicked.InvokeAsync(Student))">Delete</button>
+    </td>
+</tr>
+
+@code {
+
+    [Parameter]
+    public Student Student { get; set; }
+
+    [Parameter]
+    public EventCallback<Student> OnDeleteClicked { get; set; }
+
+}

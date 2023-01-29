@@ -1,0 +1,88 @@
+﻿@page "/l3_filtering"
+@inject IJSRuntime jsRuntime;
+
+<h3>Form with filtering</h3>
+
+<div class="form-inline">
+    <div class="form-group">
+        <label for="lastname">Last name</label>
+        <input type="text" class="form-control"
+               id="lastname" placeholder="Last name"
+               @bind-value="Query" @bind-value:event="oninput"
+               @onkeypress="((KeyboardEventArgs e)=>QueryKeyPress(e))" />
+    </div>
+    <br />
+    <L3_ListOfStudents Students="Students" OnStudentClicked="OnStudentClickedHandler" />
+    <br />
+    <button type="button" @onclick="Search">Search</button>
+    <button type="button" @onclick="Clear">Clear</button>
+</div>
+
+@code {
+
+    public static List<Student> Students { get; set; }
+    public string Query { get; set; }
+
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        Students = LoadStudents();
+    }
+
+    private List<Student> LoadStudents()
+    {
+        var students = new List<Student>();
+        students.Add(new Student
+        {
+            FirstName = "John",
+            LastName = "Smith",
+            Address = "Warsaw"
+        });
+        students.Add(new Student
+        {
+            FirstName = "Anne",
+            LastName = "Smith",
+            Address = "Warsaw"
+        });
+        students.Add(new Student
+        {
+            FirstName = "Jan",
+            LastName = "Kowalski",
+            Address = "Warsaw"
+        });
+        students.Add(new Student
+        {
+            FirstName = "Mike",
+            LastName = "Smith",
+            Address = "Warsaw"
+        });
+        return students;
+    }
+
+    private void QueryKeyPress(KeyboardEventArgs args)
+    {
+        Console.WriteLine($"Selected query {Query}");
+        if (args.Key == "Enter")
+        {
+            Search();
+        }
+    }
+
+    private void Search()
+    {
+        Students = LoadStudents().Where(s => s.LastName.StartsWith(Query)).ToList();
+    }
+
+    private void Clear()
+    {
+        Query = "";
+        Students = LoadStudents();
+    }
+
+    private void OnStudentClickedHandler(Student student)
+    {
+        Console.WriteLine($"Clicked on {student.LastName}");
+        jsRuntime.InvokeVoidAsync("alert", new[] { $"Clicked on {student.FirstName} {student.LastName}" });
+    }
+}

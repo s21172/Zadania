@@ -1,0 +1,26 @@
+C:\Users\Piotr\OneDrive - Polsko-Japońska Akademia Technik Komputerowych\Materiały\Przedmioty\2021 letni\APBD\Angielskie\Lecture 12\BlazorClientSideSamples\BlazorClientSideSamples\Shared\bin\Debug\net5.0\BlazorClientSideSamples.Shared.deps.json
+C:\Users\Piotr\OneDrive - Polsko-Japońska Akademia Technik Komputerowych\Materiały\Przedmioty\2021 letni\APBD\Angielskie\Lecture 12\BlazorClientSideSamples\BlazorClientSideSamples\Shared\bin\Debug\net5.0\BlazorClientSideSamples.Shared.dll
+C:\Users\Piotr\OneDrive - Polsko-Japońska Akademia Technik Komputerowych\Materiały\Przedmioty\2021 letni\APBD\Angielskie\Lecture 12\BlazorClientSideSamples\BlazorClientSideSamples\Shared\bin\Debug\net5.0\ref\BlazorClientSideSamples.Shared.dll
+C:\Users\Piotr\OneDrive - Polsko-Japońska Akademia Technik Komputerowych\Materiały\Przedmioty\2021 letni\APBD\Angielskie\Lecture 12\BlazorClientSideSamples\BlazorClientSideSamples\Shared\bin\Debug\net5.0\BlazorClientSideSamples.Shared.pdb
+C:\Users\Piotr\OneDrive - Polsko-Japońska Akademia Technik Komputerowych\Materiały\Przedmioty\2021 letni\APBD\Angielskie\Lecture 12\BlazorClientSideSamples\BlazorClientSideSamples\Shared\obj\Debug\net5.0\BlazorClientSideSamples.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Piotr\OneDrive - Polsko-Japońska Akademia Technik Komputerowych\Materiały\Przedmioty\2021 letni\APBD\Angielskie\Lecture 12\BlazorClientSideSamples\BlazorClientSideSamples\Shared\obj\Debug\net5.0\BlazorClientSideSamples.Shared.AssemblyInfoInputs.cache
+C:\Users\Piotr\OneDrive - Polsko-Japońska Akademia Technik Komputerowych\Materiały\Przedmioty\2021 letni\APBD\Angielskie\Lecture 12\BlazorClientSideSamples\BlazorClientSideSamples\Shared\obj\Debug\net5.0\BlazorClientSideSamples.Shared.AssemblyInfo.cs
+C:\Users\Piotr\OneDrive - Polsko-Japońska Akademia Technik Komputerowych\Materiały\Przedmioty\2021 letni\APBD\Angielskie\Lecture 12\BlazorClientSideSamples\BlazorClientSideSamples\Shared\obj\Debug\net5.0\BlazorClientSideSamples.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Piotr\OneDrive - Polsko-Japońska Akademia Technik Komputerowych\Materiały\Przedmioty\2021 letni\APBD\Angielskie\Lecture 12\BlazorClientSideSamples\BlazorClientSideSamples\Shared\obj\Debug\net5.0\BlazorClientSideSamples.Shared.dll
+C:\Users\Piotr\OneDrive - Polsko-Japońska Akademia Technik Komputerowych\Materiały\Przedmioty\2021 letni\APBD\Angielskie\Lecture 12\BlazorClientSideSamples\BlazorClientSideSamples\Shared\obj\Debug\net5.0\ref\BlazorClientSideSamples.Shared.dll
+C:\Users\Piotr\OneDrive - Polsko-Japońska Akademia Technik Komputerowych\Materiały\Przedmioty\2021 letni\APBD\Angielskie\Lecture 12\BlazorClientSideSamples\BlazorClientSideSamples\Shared\obj\Debug\net5.0\BlazorClientSideSamples.Shared.pdb
+C:\Users\Piotr\Downloads\project-templates\BlazorClientSideSamples\BlazorClientSideSamples\Shared\bin\Debug\net5.0\BlazorClientSideSamples.Shared.deps.json
+C:\Users\Piotr\Downloads\project-templates\BlazorClientSideSamples\BlazorClientSideSamples\Shared\bin\Debug\net5.0\BlazorClientSideSamples.Shared.runtimeconfig.json
+C:\Users\Piotr\Downloads\project-templates\BlazorClientSideSamples\BlazorClientSideSamples\Shared\bin\Debug\net5.0\BlazorClientSideSamples.Shared.runtimeconfig.dev.json
+C:\Users\Piotr\Downloads\project-templates\BlazorClientSideSamples\BlazorClientSideSamples\Shared\bin\Debug\net5.0\BlazorClientSideSamples.Shared.dll
+C:\Users\Piotr\Downloads\project-templates\BlazorClientSideSamples\BlazorClientSideSamples\Shared\bin\Debug\net5.0\ref\BlazorClientSideSamples.Shared.dll
+C:\Users\Piotr\Downloads\project-templates\BlazorClientSideSamples\BlazorClientSideSamples\Shared\bin\Debug\net5.0\BlazorClientSideSamples.Shared.pdb
+C:\Users\Piotr\Downloads\project-templates\BlazorClientSideSamples\BlazorClientSideSamples\Shared\obj\Debug\net5.0\BlazorClientSideSamples.Shared.csprojAssemblyReference.cache
+C:\Users\Piotr\Downloads\project-templates\BlazorClientSideSamples\BlazorClientSideSamples\Shared\obj\Debug\net5.0\BlazorClientSideSamples.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Piotr\Downloads\project-templates\BlazorClientSideSamples\BlazorClientSideSamples\Shared\obj\Debug\net5.0\BlazorClientSideSamples.Shared.AssemblyInfoInputs.cache
+C:\Users\Piotr\Downloads\project-templates\BlazorClientSideSamples\BlazorClientSideSamples\Shared\obj\Debug\net5.0\BlazorClientSideSamples.Shared.AssemblyInfo.cs
+C:\Users\Piotr\Downloads\project-templates\BlazorClientSideSamples\BlazorClientSideSamples\Shared\obj\Debug\net5.0\BlazorClientSideSamples.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Piotr\Downloads\project-templates\BlazorClientSideSamples\BlazorClientSideSamples\Shared\obj\Debug\net5.0\BlazorClientSideSamples.Shared.dll
+C:\Users\Piotr\Downloads\project-templates\BlazorClientSideSamples\BlazorClientSideSamples\Shared\obj\Debug\net5.0\ref\BlazorClientSideSamples.Shared.dll
+C:\Users\Piotr\Downloads\project-templates\BlazorClientSideSamples\BlazorClientSideSamples\Shared\obj\Debug\net5.0\BlazorClientSideSamples.Shared.pdb
+C:\Users\Piotr\Downloads\project-templates\BlazorClientSideSamples\BlazorClientSideSamples\Shared\obj\Debug\net5.0\BlazorClientSideSamples.Shared.genruntimeconfig.cache

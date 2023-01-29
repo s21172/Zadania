@@ -1,0 +1,23 @@
+﻿@page "/l14-samplepage"
+@inject IJSRuntime js
+
+<h3>Invoke static C# from JS</h3>
+<button @onclick="Increment">Click me</button>
+
+@code {
+
+    private static int counter = 0;
+
+    private async Task Increment()
+    {
+        counter++;
+        await js.InvokeVoidAsync("dotnetStaticInvocation");
+    }
+
+    [JSInvokable]
+    public static Task<int> GetCurrentCount()
+    {
+        return Task.FromResult(counter);
+    }
+
+}

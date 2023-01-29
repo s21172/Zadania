@@ -1,0 +1,28 @@
+﻿@page "/l15-samplepage"
+@inject IJSRuntime js
+
+<h3>Invoke instance C# method from JS</h3>
+<button @onclick="Increment">Click me (server side)</button>
+<button @onclick="IncrementJavaScript">Click me (client side)</button>
+
+<p>
+    Counter: @counter
+</p>
+
+@code {
+
+    private int counter = 0;
+
+    [JSInvokable]
+    public void Increment()
+    {
+        counter++;
+    }
+
+
+    public async Task IncrementJavaScript()
+    {
+        await js.InvokeVoidAsync("dotnetInstanceInvocation", DotNetObjectReference.Create(this));
+    }
+
+}

@@ -1,0 +1,17 @@
+﻿@page "/l2-samplepage/{StudentId:int}/{Name}"
+
+<h3>Route params</h3>
+<p>
+    StudentId: @StudentId
+</p>
+<p>
+    Name: @Name
+</p>
+
+@code {
+    [Parameter]
+    public int StudentId { get; set; }
+
+    [Parameter]
+    public string Name { get; set; }
+}

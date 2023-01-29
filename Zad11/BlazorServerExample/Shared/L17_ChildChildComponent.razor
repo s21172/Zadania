@@ -1,0 +1,38 @@
+﻿<h3>Child child component</h3>
+<p>
+    This is text from much more nested component
+</p>
+<table>
+    @if (Students.Count == 0)
+    {
+        <tr>
+            <td>
+                There are no students
+            </td>
+        </tr>
+    }
+    else
+    {
+        @foreach (var s in Students)
+        {
+            <tr>
+                <td>
+                    @s.IdStudent
+                </td>
+                <td>
+                    @s.FirstName
+                </td>
+                <td>
+                    @s.LastName
+                </td>
+            </tr>
+        }
+    }
+</table>
+
+@code {
+
+    [CascadingParameter]
+    public List<Student> Students { get; set; }
+
+}

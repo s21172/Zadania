@@ -1,0 +1,49 @@
+﻿@page "/l2_validation"
+
+<h3>Validation with data annotations</h3>
+
+<EditForm Model="Student" OnValidSubmit="OnValidSubmit">
+    <DataAnnotationsValidator />
+    <div class="form-group">
+        <label>First name:</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@Student.FirstName" />
+            <ValidationMessage For="@(()=>Student.FirstName)" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Last name:</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@Student.LastName" />
+            <ValidationMessage For="@(()=>Student.LastName)" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Index number:</label>
+        <div>
+            <InputNumber class="form-control" @bind-Value="@Student.IndexNumber" />
+            <ValidationMessage For="@(()=>Student.IndexNumber)" />
+        </div>
+    </div>
+
+    <button class="btn tbn-success" type="submit">Save changes</button>
+</EditForm>
+
+@code {
+
+    public Student Student { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        Student = new Student();
+    }
+
+    private void OnValidSubmit()
+    {
+        Console.WriteLine(Student.FirstName);
+        Console.WriteLine(Student.LastName);
+        Console.WriteLine(Student.IndexNumber);
+    }
+
+}

@@ -1,0 +1,15 @@
+﻿@page "/l1_newstudent"
+
+<h3>New student</h3>
+<L1_StudentForm Student="@Student" />
+
+@code {
+    public Student Student { get; set; } = new Student
+    {
+        FirstName = "John",
+        LastName = "Smith",
+        Address = "Warsaw",
+        Birthdate = DateTime.Now,
+        IndexNumber = 22124
+    };
+}

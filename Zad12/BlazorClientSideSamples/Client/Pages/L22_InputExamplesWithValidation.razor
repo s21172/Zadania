@@ -1,0 +1,91 @@
+﻿@page "/l11_inputexamples"
+
+<h3>Input examples with validation</h3>
+<EditForm Model="StarshipSample" OnSubmit="OnCreate">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <div class="form-group">
+        <label>Identifier:</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@StarshipSample.Identifier" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Description:</label>
+        <div>
+            <InputTextArea class="form-control" @bind-Value="@StarshipSample.Description" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Classification:</label>
+        <div>
+            <InputNumber class="form-control" @bind-Value="@StarshipSample.MaximumAccommodation" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Birthdate:</label>
+        <div>
+            <InputDate class="form-control" @bind-Value="@StarshipSample.ProductionDate" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>IsValidatedDesign:</label>
+        <div>
+            <InputCheckbox class="form-control" @bind-Value="@StarshipSample.IsValidatedDesign" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Classification:</label>
+        <div>
+            <InputSelect @bind-Value="StarshipSample.Classification">
+                <option value="">Select classification ...</option>
+                <option value="Exploration">Exploration</option>
+                <option value="Diplomacy">Diplomacy</option>
+                <option value="Defense">Defense</option>
+            </InputSelect>
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Classification:</label>
+        <div>
+            <InputRadioGroup Name="color" @bind-Value="StarshipSample.Color">
+                <label>Red:</label>
+                <InputRadio Name="color" Value="Color.RED" />
+                <label>Green:</label>
+                <InputRadio Name="color" Value="Color.GREEN" />
+                <label>Blue:</label>
+                <InputRadio Name="color" Value="Color.BLUE" />
+                <label>Yellow:</label>
+                <InputRadio Name="color" Value="Color.YELLOW" />
+            </InputRadioGroup>
+        </div>
+    </div>
+    <button class="btn btn-success" type="submit">Save changes</button>
+</EditForm>
+
+@code {
+
+    public StarshipSample StarshipSample { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        StarshipSample = new StarshipSample();
+    }
+
+    private void OnCreate(EditContext context)
+    {
+        var errors = context.GetValidationMessages().ToList();
+
+        if (context.Validate())
+        {
+            Console.WriteLine("Form data are correct");
+        }
+        else
+        {
+            Console.WriteLine("Form data are incorrect");
+        }
+        Console.WriteLine("OnCreate");
+    }
+
+}

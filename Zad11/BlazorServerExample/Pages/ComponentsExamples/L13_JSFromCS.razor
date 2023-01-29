@@ -1,0 +1,17 @@
+﻿@page "/l13-samplepage"
+
+<h3>JavaScript called from C#</h3>
+@inject IJSRuntime js
+
+<button @onclick="ClickMe">Click me</button>
+
+@code
+{
+
+    private async Task ClickMe()
+    {
+        var confirmed = await js.InvokeAsync<bool>("confirm", "Are you sure?");
+        Console.WriteLine("Confirmed: " + confirmed);
+    }
+
+}

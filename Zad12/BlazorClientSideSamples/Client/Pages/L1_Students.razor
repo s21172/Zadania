@@ -1,0 +1,79 @@
+﻿@page "/l1_students"
+
+@inject NavigationManager navManager
+
+<h3>Students</h3>
+
+@if (StudentsList == null)
+{
+    <span>There are no students</span>
+}
+else
+{
+    <button class="btn" @onclick="@(() => navManager.NavigateTo("/l1_newstudent"))">Add student</button>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">First name</th>
+                <th scope="col">Last name</th>
+                <th scope="col">Address</th>
+                <th scope="col">Index number</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var s in StudentsList)
+            {
+                <tr>
+                    <td>
+                        @s.FirstName
+                    </td>
+                    <td>
+                        @s.LastName
+                    </td>
+                    <td>
+                        @s.Address
+                    </td>
+                    <td>
+                        @s.IndexNumber
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+@code {
+
+    public List<Student> StudentsList { get; set; }
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        base.OnInitialized();
+
+        await Task.Delay(3000);
+
+        StudentsList = new List<Student>();
+        StudentsList.Add(new Student
+        {
+            FirstName = "John",
+            LastName = "Smith",
+            Address = "Warsaw",
+            Birthdate = new DateTime(1989, 1, 2),
+            IdStudent = 1,
+            IndexNumber = 21243
+        });
+        StudentsList.Add(new Student
+        {
+            FirstName = "Anne",
+            LastName = "Smith",
+            Address = "Warsaw",
+            Birthdate = new DateTime(1991, 1, 2),
+            IdStudent = 2,
+            IndexNumber = 21222
+        });
+    }
+
+
+}

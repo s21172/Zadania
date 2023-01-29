@@ -1,0 +1,47 @@
+﻿@page "/l8-samplepage"
+
+<h3>Event callback example</h3>
+
+<table>
+    @if (students.Count == 0)
+    {
+        <tr>
+            <td>
+                There are no students
+            </td>
+        </tr>
+    }
+    else
+    {
+        @foreach (var s in students)
+        {
+            <L8_ChildComponent Student="s" OnDeleteClicked="DeleteStudent" />
+        }
+    }
+</table>
+
+@code {
+    private List<Student> students = new List<Student>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(4000);
+        students.Add(new Student
+        {
+            FirstName = "John",
+            LastName = "Smith",
+            IdStudent = 1
+        });
+        students.Add(new Student
+        {
+            FirstName = "Anne",
+            LastName = "Smith",
+            IdStudent = 2
+        });
+    }
+
+    private void DeleteStudent(Student st)
+    {
+        Console.WriteLine("Deleted student " + st.IdStudent);
+    }
+}

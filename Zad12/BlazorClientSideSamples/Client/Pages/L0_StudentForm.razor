@@ -1,0 +1,52 @@
+﻿@page "/l0_students/newstudent"
+@inject NavigationManager navManager
+
+<h3>New student</h3>
+<EditForm Model="Student">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <div class="form-group">
+        <label>First name:</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@Student.FirstName" />
+            <ValidationMessage For="@(()=>Student.FirstName)" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Last name:</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@Student.LastName" />
+            <ValidationMessage For="@(()=>Student.LastName)" />
+        </div>
+    </div>
+
+    <button class="btn btn-success" type="submit">Save changes</button>
+</EditForm>
+
+@code {
+
+    [Parameter]
+    public Student2 Student { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        Student = new Student2();
+    }
+
+    private void CreateStudent(EditContext context)
+    {
+        if (context.Validate())
+        {
+            Console.WriteLine("Correct form");
+        }
+        else
+        {
+            Console.WriteLine("Incorrect form");
+        }
+
+        Console.WriteLine("Student created " + Student.LastName);
+
+    }
+
+}

@@ -1,0 +1,29 @@
+﻿@page "/l12-samplepage"
+
+@inject ICounterService singletonService;
+@inject ICounterService2 scopedService;
+@inject ICounterService3 transientService;
+
+<h3>Injection example</h3>
+<button @onclick="Increment">Click me</button>
+<p>
+    Singleton service: @singletonService.Counter
+</p>
+<p>
+    Scoped service: @scopedService.Counter
+</p>
+<p>
+    Transient service: @transientService.Counter
+</p>
+
+
+@code {
+
+    private void Increment()
+    {
+        singletonService.Counter++;
+        scopedService.Counter++;
+        transientService.Counter++;
+    }
+
+}

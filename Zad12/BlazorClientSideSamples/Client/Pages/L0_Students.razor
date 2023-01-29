@@ -1,0 +1,26 @@
+﻿@page "/l0_students"
+
+<h3>Students list</h3>
+<a href="/l0_students/newstudent">Create student</a>
+
+@if (Students2 == null)
+{
+    <img src="https://media0.giphy.com/media/3oEjI6SIIHBdRxXI40/200.gif" alt="Loading" />
+}
+else if (Students2.Count == 0)
+{
+    <span>There are not students</span>
+}
+else
+{
+    <table class="table">
+        @foreach (var s in Students2)
+        {
+            <tr>
+                <td>@s.IdStudent</td>
+                <td>@s.FirstName</td>
+                <td>@s.LastName</td>
+            </tr>
+        }
+    </table>
+}

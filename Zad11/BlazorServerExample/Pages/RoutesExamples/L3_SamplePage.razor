@@ -1,0 +1,13 @@
+﻿@page "/l3-samplepage"
+@inject NavigationManager navigationManager
+
+<h3>Route params</h3>
+<button @onclick="OnButtonClicked">Kliknij</button>
+
+@code {
+    private void OnButtonClicked()
+    {
+        Console.WriteLine("Clicked..." + navigationManager.Uri);
+        navigationManager.NavigateTo("/l1-samplepage");
+    }
+}
